@@ -1,43 +1,47 @@
-body {
+
+body{
+  font-family: "Courier New", Courier, monospace;
   background-image: url('adia-working.jpg');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: grey
+  background-color: darkgrey;
 }
-
-.sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 13%;
-  left: 0;
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 10%;
+  margin-left: 17%;
 }
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 5px 5px 5px 32px;
-  text-decoration: none;
-  font-size: 20px;
+.button {
   color: white;
-  display: block;
-  transition: 0.3s;
-  border-radius: 5px;
-  border: solid grey 1px;
-  background-color: #111;
+  font-weight: bold;
+  font-size: 30px;
+  border: white 2px;
+  border-radius: 25px;
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: grey;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+nav a:hover {
+  background-color: grey;
 }
 
 #banner {
+  font-size: 34px;
   text-align: center;
-  border-radius: 5px;
-  border: solid grey;
+  border-radius: 25px;
+  border: solid grey 1px;
   color: white;
   padding: 10px;
+  background-color: black;
+}
+
+#message {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  margin-top: 30%;
 }
